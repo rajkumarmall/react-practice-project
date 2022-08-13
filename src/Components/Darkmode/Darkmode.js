@@ -34,11 +34,16 @@ function Darkmode(){
     }
 
     return (
+        <>
        <div className="container p-3 my-3 border" style={forDarkText}>
            <h2 style={forDarkText}>Dark Mode Container</h2>
            <p style={forDarkText}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo sit molestiae repellendus, eius omnis id aperiam nulla illo doloribus. Itaque, expedita voluptatum iusto deleniti magni repellat nulla quod! Consequuntur, iure.</p>
            <button className="btn btn-dark" onClick={toggleBtn}>{btnText}</button>
        </div>
+       <div> 
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, quis sunt, obcaecati, ut debitis deserunt atque assumenda cumque ad vel dolores natus repellendus sequi distinctio fugiat consequatur ex inventore. Placeat.
+       </div>
+       </>
     );
 };
 
